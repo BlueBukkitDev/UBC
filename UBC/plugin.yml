@@ -1,0 +1,10 @@
+main: blue.dev.ubc.Main
+name: UBC
+version: 2.8
+api-version: 1.13
+author: Blue1
+description: Compresses all items into their respective blocks!
+commands:
+  block:
+    usage: /block or /block reload
+    description: Compresses all items!

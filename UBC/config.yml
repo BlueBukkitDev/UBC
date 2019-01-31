@@ -1,0 +1,45 @@
+Sounds: true
+UseMessages: true
+#There are two available keywords. %blocks% gets replaced by the quantity of blocks produced by the compression, and 
+#%items% is replaced by the quantity of items removed from the inventory in which the compression took place. 
+Messages:
+- "&2&l%blocks% &bblocks were created using &2&l%items% &bitems from your inventory!"
+#Valid sounds can be found at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+#You must use a proper sound name for your version unless you are using the plugin "ViaVersion", which I highly reccommend. 
+#Or you can just set the above (Sounds) to false. 
+Sound-Name: ENTITY_PLAYER_LEVELUP
+#If Uncraftable is set to true, then red and brown mushroom blocks and netherwart blocks can be crafted back into items in a crafting table. Set to false to return to default. 
+Uncraftable: true
+#Arrangement: Material-Data-Quantity=Result-Data-Quantity ....No spaces! Spaces can break it. 
+#Valid Materials can be found at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+Enabled-Items: 
+- DIAMOND-0-9=DIAMOND_BLOCK-0-1
+- EMERALD-0-9=EMERALD_BLOCK-0-1
+- GOLD_INGOT-0-9=GOLD_BLOCK-0-1
+- GOLD_NUGGET-0-9=GOLD_INGOT-0-1
+- IRON_INGOT-0-9=IRON_BLOCK-0-1
+- IRON_NUGGET-0-9=IRON_INGOT-0-1
+- LAPIS_LAZULI-0-9=LAPIS_BLOCK-0-1
+- BONE_MEAL-0-9=BONE_BLOCK-0-1
+- REDSTONE-0-9=REDSTONE_BLOCK-0-1
+- COAL-0-9=COAL_BLOCK-0-1
+- GLOWSTONE_DUST-0-4=GLOWSTONE-0-1
+- PRISMARINE_SHARD-0-4=PRISMARINE-0-1
+- SNOWBALL-0-4=SNOW_BLOCK-0-1
+- BRICK-0-4=BRICKS-0-1
+- NETHER_BRICK-0-4=NETHER_BRICKS-0-1
+- NETHER_WART-0-9=NETHER_WART_BLOCK-0-1
+- SLIME_BALL-0-9=SLIME_BLOCK-0-1
+- WHEAT-0-9=HAY_BLOCK-0-1
+- MELON_SLICE-0-9=MELON-0-1
+- QUARTZ-0-4=QUARTZ_BLOCK-0-1
+- STRING-0-4=WHITE_WOOL-0-1
+- CLAY_BALL-0-4=CLAY-0-1
+- POPPED_CHORUS_FRUIT-0-4=PURPUR_BLOCK-0-1
+- SAND-0-4=SANDSTONE-0-1
+- SAND-1-4=RED_SANDSTONE-0-1
+- MAGMA_CREAM-0-4=MAGMA_BLOCK-0-1
+- STONE-0-4=STONE_BRICKS-0-1
+- RED_MUSHROOM-0-4=LEGACY_HUGE_MUSHROOM_1-0-1
+- BROWN_MUSHROOM-0-4=LEGACY_HUGE_MUSHROOM_2-0-1
+
